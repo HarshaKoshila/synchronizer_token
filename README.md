@@ -1,5 +1,6 @@
 Synchronizer Token 
-blog post url -> https://fsocietylk.wordpress.com/2018/05/27/csrf-protection-via-synchronizer-token/
+Blog post url of this scenario -> http://simplecoding17.blogspot.com/2018/10/csrf-protection-via-synchronizer-token.html
+
 Instructions for locally setting up the website
 
 Prerequisites
